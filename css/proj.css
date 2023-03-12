@@ -1,0 +1,215 @@
+/* header */
+.nav-text{
+    margin-left: auto;
+}
+.fixed{
+    position: fixed;
+    width: 100%;
+}
+.banner-1 img:nth-child(1){
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.logo-a{
+    padding: 20px 0px 20px 20px;
+}
+.active{
+    opacity: 1 !important;
+}
+
+.ul-1 li a{
+    color: #111 !important;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 5px 15px;
+    opacity: 0.7;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    text-transform: uppercase;
+    transition: 1s;
+}
+.ul-1 li a:hover{
+    opacity: 1;
+}
+.ul-1 li{
+    margin-left: 8px;
+}
+.ul-1{
+    padding-top: 0px;
+    padding-right: 45px;
+}
+.scroll{
+    background-color: white;
+    z-index: 5;
+    transition: 300ms;
+}
+/* header */
+/* sec-1 */
+.sec-1{
+    padding: 130px 0px 30px 0px;
+}
+.card-1 a{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    height: 220px;
+}
+.card-1 div:nth-child(2) h3{
+    text-transform: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #111111;
+    font-weight: 500;
+    opacity: 1;
+    font-size: 20px;
+    line-height: 32px;
+    padding-top: 10px;
+}
+.card-1 div:nth-child(2) h5{
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #111111;
+    margin-top: -1px;
+}
+.card-1 div:nth-child(2){
+    text-align: center;
+}
+.bg-1{
+    background-image: url(../image/download.jpg);
+}
+.bg-2{
+    background-image: url(../image/download-1.jpg);
+}
+.bg-3{
+    background-image: url(../image/download-2.jpg);
+}
+.bg-4{
+    background-image: url(../image/download-3.jpg);
+}
+.bg-5{
+    background-image: url(../image/download-4.jpg);
+}
+.bg-6{
+    background-image: url(../image/download-5.jpg);
+}
+.bg-7{
+    background-image: url(../image/download-6.jpg);
+}
+.bg-8{
+    background-image: url(../image/download-7.jpg);
+}
+.bg-9{
+    background-image: url(../image/download-8.jpg);
+}
+.bg-10{
+    background-image: url(../image/download-9.jpg);
+}
+.bg-11{
+    background-image: url(../image/download-10.jpg);
+}
+.bg-12{
+    background-image: url(../image/download-11.jpg);
+}
+.card-1 a div{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;
+}
+.card-1{
+    float: left;
+    padding: 20px 14px;
+}
+/* sec-1 */
+/* footer */
+footer img{
+    height: 573px;
+    width: 100%;
+    vertical-align: middle;
+}
+footer{
+    margin-top: 150px;
+}
+.content-foot{
+    max-width: 1170px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+}
+.content-foot-child{
+    position: absolute;
+    left: 0;
+    bottom: 188px;
+    z-index: -1;
+}
+.footer-top-content div:nth-child(1) img{
+    width: 145px;
+    height: 46px;
+    float: left;
+}
+.footer-top-content div:nth-child(1) div:nth-child(3){
+    margin-top: 36px;
+    max-width: 966px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer-top-content div:nth-child(1) div p{
+    margin-bottom: 10px;
+}
+.footer-top-content div:nth-child(2){
+    text-align: right;
+}
+.footer-top-content div:nth-child(2) h5{
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 4.5px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 37px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.footer-top-content div:nth-child(2) div{
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 400;
+    color: white;
+}
+.footer-top-content div:nth-child(2) div p{
+    margin-bottom: 0px;
+}
+.footer-top-content::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.footer-top-content{
+    padding-bottom: 33px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.footer-bottom-content{
+    padding-top: 47px;
+}
+.footer-bottom-content div{
+    float: left;
+    width: 50%;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: white;
+}
+.footer-bottom-content div p{
+    text-align: left;
+}
+/* footer */
